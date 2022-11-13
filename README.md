@@ -210,4 +210,4 @@ IndexedDB is a low-level API for client-side storage of significant amounts of s
 
 ## IndexedDB GUI (Chrome dev tools)
 
-![6](https://github.com/arjunkhetia/Angular-IndexedDB-Project/blob/main/src/assets/5.png "6")
+![6](https://github.com/arjunkhetia/Angular-IndexedDB-Project/blob/main/src/assets/6.png "6")
