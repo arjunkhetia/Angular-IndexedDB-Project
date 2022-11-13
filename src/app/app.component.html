@@ -1,0 +1,255 @@
+<div style="text-align:center; padding-top: 20px;">
+  <h2>
+    {{ title }}
+  </h2>
+</div>
+
+<div class="container p-2">
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title text-center">
+        <img width="25" height="25"
+          src="data:image/png;base64,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">
+        Database
+      </h5>
+      <div class="row mb-3 mt-4">
+        <label for="dbname" class="col-sm-1 col-form-label text-center">Name</label>
+        <div class="col-sm-4">
+          <input type="text" class="form-control" id="dbname" [(ngModel)]="dbname">
+        </div>
+        <label for="dbversion" class="col-sm-1 col-form-label text-center">Version</label>
+        <div class="col-sm-4">
+          <input type="text" class="form-control" id="dbversion" [(ngModel)]="dbversion">
+        </div>
+        <div class="d-grid col-sm-2">
+          <button type="button" class="btn btn-primary" [disabled]="!dbname || !dbversion" (click)="createDatabase()">
+            Create
+          </button>
+        </div>
+      </div>
+      <div *ngIf="!databaseList.length" class="mb-3 mt-4 text-center">
+        No databse available
+      </div>
+      <table *ngIf="databaseList.length" class="table table-bordered">
+        <thead>
+          <tr>
+            <th class="text-center" scope="col">Sr. No.</th>
+            <th class="text-center" scope="col">Database Name</th>
+            <th class="text-center" scope="col">Database Version</th>
+            <th class="text-center" scope="col">Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let db of databaseList; let i = index">
+            <th class="text-center" scope="row">{{i+1}}</th>
+            <td class="text-center">{{db.name}}</td>
+            <td class="text-center">{{db.version}}</td>
+            <td class="text-center">
+              <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#deleteModal"
+                (click)="deleteObj = 'database'; deleteRef = db.name;"><i class="bi bi-trash"></i></button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<div *ngIf="databaseList.length" class="container p-2">
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title text-center">
+        <img width="25" height="25"
+          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABmJLR0QA/wD/AP+gvaeTAAAB6klEQVRIie2WzWrbQBSFjzRT/Tq41qK2oSFQaDehdBP6EiGrvkpfIcv2RfogfYJsHHA82Km8sPwjxx5pNLKycNPqWqHUwcGQ5KzENz9n0BzmXmBPMgDg+4+f567tn5YHUp07jBmaG6Yuc6ly37XYoswSlXuOxZZkvdKebXHCMp2Zots7+/b1i+AA4Nr+6fHnj5/Kk3pXIZrNAK5nk5P2u0McvmsRJjoDHH14S9jlhcD74yPCxqNpcd3/dQhAmPf+h3+oQFFhq6LKintYWVsb70p7M+bAOki9q5AMTMZz2K84EmkRfjOXmEQzwmSqKixRVRZP/2aSAwBjhm42AzLJ4hwnbRuNAxquYa2OVsOhzK+jFVAW+gHaG0yYseyki/CPMTdMvZneRFpoHFSNszx7MIs8Vuhc5sBzDNd+Uy1V7ve7Q/I43MwlhrU6sjwjC+JlWtnkf1mmV4wYuxZbbD6Dk2iGVsOpBAQA3ryuPYjFcZzffT+/O95vuBKVe6IzIFVGpgpD/5HD5VhsuVlPJ9EMreAlXE/AeF2PlfYuLwRpVxKlEPrB44bLtvhyszGbRDO0X8L1FIw5sO7wx6MpaYTj6QLCjGXkMcIzvWLlu9qGXYcjRYxFt3f2u8Mn6qSL8K5H2pWcVAx2ud/WugXedxdNWTIxiwAAAABJRU5ErkJggg==">
+        Table
+      </h5>
+      <div class="row mb-3 mt-4">
+        <label for="selectdb" class="col-sm-2 col-form-label">Select&nbsp;Database</label>
+        <div class="col-sm-10">
+          <select class="form-select" aria-label="selectdb" [(ngModel)]="selectedDatabase"
+            (ngModelChange)="getTableList(); tableName = '';">
+            <option selected disabled>select database</option>
+            <option *ngFor="let db of databaseList">{{db.name}}</option>
+          </select>
+        </div>
+      </div>
+      <div class="row mb-3 mt-4">
+        <label for="tableName" class="col-sm-2 col-form-label">Table&nbsp;Name</label>
+        <div class="col-sm-4">
+          <input type="text" class="form-control" id="tableName" [(ngModel)]="tableName"
+            [disabled]="selectedDatabase === 'select database'">
+          <div id="databaseVersionHelp" class="form-text">Database version will increment by 1</div>
+        </div>
+        <label for="primaryKey" class="col-sm-2 col-form-label">Primary&nbsp;Key</label>
+        <div class="col-sm-4">
+          <input type="text" class="form-control" id="primaryKey" [(ngModel)]="primaryKey"
+            [disabled]="selectedDatabase === 'select database'">
+          <div id="primaryKeyHelp" class="form-text">Primary key is auto incremented</div>
+        </div>
+      </div>
+      <div class="mb-3 mt-4">
+        <b>Optional configurations:</b>
+      </div>
+      <div>
+        <div *ngFor="let rowdata of tableData; let i = index;" class="row mb-3 mt-4">
+          <label for="{{i}}" class="col-sm-1 col-form-label text-center">Index&nbsp;Field</label>
+          <div class="col-sm-2">
+            <input type="text" class="form-control" id="{{i}}" [(ngModel)]="rowdata.fieldName"
+              [disabled]="selectedDatabase === 'select database'">
+            <div id="fieldHelp" class="form-text">Field for creating index</div>
+          </div>
+          <label for="autoIncrement" class="col-sm-2 col-form-label text-center">Auto&nbsp;Increment</label>
+          <div class="col-sm-3">
+            <select class="form-select" aria-label="autoIncrement" [(ngModel)]="rowdata.autoIncrement"
+              [disabled]="selectedDatabase === 'select database'">
+              <option selected disabled>should auto increment</option>
+              <option value="true">Yes</option>
+              <option value="false">No</option>
+            </select>
+          </div>
+          <label for="unique" class="col-sm-1 col-form-label text-center">Unique</label>
+          <div class="col-sm-2">
+            <select class="form-select" aria-label="unique" [(ngModel)]="rowdata.unique"
+              [disabled]="selectedDatabase === 'select database'">
+              <option selected disabled>should be unique</option>
+              <option value="true">Yes</option>
+              <option value="false">No</option>
+            </select>
+          </div>
+          <div *ngIf="i === (tableData.length - 1)" class="col-sm-1 m-auto text-center">
+            <img width="30" height="30" (click)="addRow()"
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAABmJLR0QA/wD/AP+gvaeTAAAFBElEQVRYhe2YS2wTRxiA/5n17o5t/GppjEKcEAOHJIQLBVOQSlyhOEiNyIGkPeTA49CqvVUVbXryCR8i9doKiYdELySiKqVSCEgkRSLUIlzIA4pqaOwk4pFiO67tXW9mpgdYxyYOtR0nufCdPP96d76d3Zl/5wd4y8pA5Z7oC4xsAwQ+E5HagPNGTWObKGcyAIAgYEUU8FOEYSKl0KsI0cGBk/tDqy7Y4h8ySEbyiVky9HDO3c11Dt7gspqqHSbYaJGBiAIAACgahbmECrPRFExG5lPjU1GEEAqlVC1gdU9f7O/qohUX9AVG2mTRcMZpJ5aPd2+2NLnsIODiTqeMw0QkBlfuzCSexZR4WmMnrvfsvVYRwXb/qAlZ2Gki4o7uA25zc529KKnlGJuKwoXhx8kMpT9LQD/r/2pfumzB1t5bVQSJNxtqbbXHvG6j/OoRrhRVo3B+KJS6H4lPZVT1wMB3Hz4vWbC191YVweKod4fT2eFxSRUxy4EDwOVgJDM09vSpllF2LSeJCwXb/aMmgsSbqyUH8HJkOjwuydvsdEqy/HuLf4gULYgs7HRDra22VLngDIfgNC9J9LDHJTW4bHVWq/nHogR9gZE2IuKOY163saSeACCWBogppZ2DAOCod6tJFvARX+D2wTcKtviHDLJoONN9wG2u1IQoBlkUoLul3ixLwtnOvr68jvMECTF+WmUj1pUuJeWws84BVTZijz+q7cyN5wkaifBN+57NG9ZWbZH23ZstG4jQkxvLCvoCI9s441ubXGs/ejpNLjswxre39gbr9djiCCLwNW9x8GLT12ogYAQ7ah0cU9qqx7KCJiK1NdRYTeujtkijy2oyS+IhvZ0VRIw3VTvW3Q+qHUbgCJr0dlYww1jVRou8PlY5vGuRQaNsk9426D8oY4Qss/YFZzjE3vjNkc/gX/+fTewEwFOz9H0nkgALlGfTXsFUt4TSsldRFDsVsyMoYKwoGjWbBcOSPxW600LoI+fbVv5KoGQoGASUTZjZEZQwfjaXUMu+cKX4J6GCKOAnenvxEWMYm42m1kUql9loGhjAuN7OCqZUOng/El93w8lwPKmo2lW9vbgOIjo4NhVDlK3CjCgSyjiMhWMYOBrUY1nBgZP7Qwij0EQktj52ADAejgHG8PBqzwd/67G8ZSalaIFf78wk1l7tJb+NziRSKj2VG8sTtLqnLz6PKfF7U9G1NQOAe1NReD6ffmF1Ry7lxvME+7u6aFpjJ34afpxUtaI3/ytGyVC4MPw4mVbh+OtVhyWZ5HrP3mvqAr107kYoWep0sRMAR8G92fJwADg/FEppGuu71uO58frxgqlORvTzB9Px8OVgJFNKZ54aBHuKzDo6v/wRzjyYnn8U/zf5RaHjy17t0Kmb74kSuettdjoPe1xSpT9j+Su54clnTzjDu658/f5cSYJZSZkMN7qsW456t5oqtdNTMhTO3Qil/pyZf5RRlY/KKn3odH4/YlSZ4QdZxEe6W+rNO+scK5K796p4tLBAL8YSqS+H/d437qRLKL/dPihLwtkqG7G3l1F+Gw+/LL/NJdIv0iocLzQhViQIANDZ1yckQjVdJqP4LaV8e3OdnTe6bKbqdwoUMOcVmI2mYTIcT46FYxhjeJhUaGCfurff70es2D7Lfvdbe4P1mNJWsyQeYgh2aJRtWmCMAAAYMEpLgvCEc5hIZ7QB4GgwN329ZS35D8MD97keJAzvAAAAAElFTkSuQmCC">
+          </div>
+        </div>
+      </div>
+      <div class="text-center">
+        <button type="button" [disabled]="!tableName || !primaryKey" class="col-sm-1 mt-2 btn btn-success table-create"
+          (click)="createTable()">
+          Create
+        </button>
+      </div>
+      <div *ngIf="!tableList.length" class="mb-3 mt-4 text-center">
+        No table available
+      </div>
+      <table *ngIf="tableList.length" class="table table-bordered">
+        <thead>
+          <tr>
+            <th class="text-center" scope="col">Sr. No.</th>
+            <th class="text-center" scope="col">Table Name</th>
+            <th class="text-center" scope="col">Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let table of tableList; let i = index">
+            <th class="text-center" scope="row">{{i+1}}</th>
+            <td class="text-center">{{table}}</td>
+            <td class="text-center">
+              <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#deleteModal"
+                (click)="deleteObj = 'table'; deleteRef = table;"><i class="bi bi-trash"></i></button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<div *ngIf="databaseList.length" class="container p-2 mb-5">
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title text-center">
+        <img width="25" height="25"
+          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAABmJLR0QA/wD/AP+gvaeTAAABXElEQVRYhe2Yv0rDUBSHf/lXQqJNBzM4uQgO9iVcXXRx71J3QahjVyV9A8HuzvUhugk6FPIE3oJJSmKatF4HqdyKuQ4h11jut92TQ85HTvgNF5BsOAp7OOs/N/JmfEMp7aT5uyNSxDS0QFExNEK7d98/zFZ1nW3Knfj6YNfuXh7vWzvbDZF+mM6yljfyzyeIAeDix6bTwTgg0Zz+FS/hnJ4Mxq+sk8oe3vKlI/rLsbjNBtJ82WJrelEzAJAEeCIU6aIaIVMH2q4C1yruUYsfVSsHAOnicwYPrmAd4Aq2XQUm9ycox2rFPLjjXQs42uO/oGr+94rrgIwZHjJmyiJjRgS1F5Qxw0PGTFlkzIig9oIyZnjImCnL5sWMaWjBdJYV9VYOiTKYhhawtTVBRcXQG/kJicRLkiiD9+AnqkLv2Praio3Q7k0Qo3v72Pl+iVM1X/eD0daVyLkSyW98ALK8DmIsGiQYAAAAAElFTkSuQmCC">
+        Record
+      </h5>
+      <div class="row mb-3 mt-4">
+        <label for="selectdbrecord" class="col-sm-2 col-form-label">Select&nbsp;Database</label>
+        <div class="col-sm-4">
+          <select class="form-select" aria-label="selectdbrecord" [(ngModel)]="selectedDatabaseRecord"
+            (ngModelChange)="getTableListRecord(); selectedTableRecord = 'select table';">
+            <option selected disabled>select database</option>
+            <option *ngFor="let db of databaseList">{{db.name}}</option>
+          </select>
+        </div>
+        <label for="selecttablerecord" class="col-sm-2 col-form-label">Select&nbsp;Table</label>
+        <div class="col-sm-4">
+          <select class="form-select" aria-label="selecttablerecord" [(ngModel)]="selectedTableRecord"
+            (ngModelChange)="getAllRecords()">
+            <option selected disabled>select table</option>
+            <option *ngFor="let table of tableListRecord">{{table}}</option>
+          </select>
+        </div>
+      </div>
+      <div>
+        <div *ngFor="let record of recordData; let i = index;" class="row mb-3 mt-4">
+          <label for="{{i}}-recordName" class="col-sm-2 col-form-label text-center">Record&nbsp;Name</label>
+          <div class="col-sm-2">
+            <input type="text" class="form-control" id="{{i}}-recordName" [(ngModel)]="record.recordName"
+              [disabled]="selectedDatabaseRecord === 'select database' || selectedTableRecord === 'select table' || record.recordName === 'id'">
+          </div>
+          <label for="{{i}}-recordValue" class="col-sm-2 col-form-label text-center">Record&nbsp;Value</label>
+          <div class="col-sm-3">
+            <input type="text" class="form-control" id="{{i}}-recordValue" [(ngModel)]="record.recordValue"
+              [disabled]="selectedDatabaseRecord === 'select database' || selectedTableRecord === 'select table' || record.recordName === 'id'">
+          </div>
+          <div *ngIf="i === (recordData.length - 1)" class="col-sm-1 m-auto text-center">
+            <img width="30" height="30" (click)="addRecord()"
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAABmJLR0QA/wD/AP+gvaeTAAAFBElEQVRYhe2YS2wTRxiA/5n17o5t/GppjEKcEAOHJIQLBVOQSlyhOEiNyIGkPeTA49CqvVUVbXryCR8i9doKiYdELySiKqVSCEgkRSLUIlzIA4pqaOwk4pFiO67tXW9mpgdYxyYOtR0nufCdPP96d76d3Zl/5wd4y8pA5Z7oC4xsAwQ+E5HagPNGTWObKGcyAIAgYEUU8FOEYSKl0KsI0cGBk/tDqy7Y4h8ySEbyiVky9HDO3c11Dt7gspqqHSbYaJGBiAIAACgahbmECrPRFExG5lPjU1GEEAqlVC1gdU9f7O/qohUX9AVG2mTRcMZpJ5aPd2+2NLnsIODiTqeMw0QkBlfuzCSexZR4WmMnrvfsvVYRwXb/qAlZ2Gki4o7uA25zc529KKnlGJuKwoXhx8kMpT9LQD/r/2pfumzB1t5bVQSJNxtqbbXHvG6j/OoRrhRVo3B+KJS6H4lPZVT1wMB3Hz4vWbC191YVweKod4fT2eFxSRUxy4EDwOVgJDM09vSpllF2LSeJCwXb/aMmgsSbqyUH8HJkOjwuydvsdEqy/HuLf4gULYgs7HRDra22VLngDIfgNC9J9LDHJTW4bHVWq/nHogR9gZE2IuKOY163saSeACCWBogppZ2DAOCod6tJFvARX+D2wTcKtviHDLJoONN9wG2u1IQoBlkUoLul3ixLwtnOvr68jvMECTF+WmUj1pUuJeWws84BVTZijz+q7cyN5wkaifBN+57NG9ZWbZH23ZstG4jQkxvLCvoCI9s441ubXGs/ejpNLjswxre39gbr9djiCCLwNW9x8GLT12ogYAQ7ah0cU9qqx7KCJiK1NdRYTeujtkijy2oyS+IhvZ0VRIw3VTvW3Q+qHUbgCJr0dlYww1jVRou8PlY5vGuRQaNsk9426D8oY4Qss/YFZzjE3vjNkc/gX/+fTewEwFOz9H0nkgALlGfTXsFUt4TSsldRFDsVsyMoYKwoGjWbBcOSPxW600LoI+fbVv5KoGQoGASUTZjZEZQwfjaXUMu+cKX4J6GCKOAnenvxEWMYm42m1kUql9loGhjAuN7OCqZUOng/El93w8lwPKmo2lW9vbgOIjo4NhVDlK3CjCgSyjiMhWMYOBrUY1nBgZP7Qwij0EQktj52ADAejgHG8PBqzwd/67G8ZSalaIFf78wk1l7tJb+NziRSKj2VG8sTtLqnLz6PKfF7U9G1NQOAe1NReD6ffmF1Ry7lxvME+7u6aFpjJ34afpxUtaI3/ytGyVC4MPw4mVbh+OtVhyWZ5HrP3mvqAr107kYoWep0sRMAR8G92fJwADg/FEppGuu71uO58frxgqlORvTzB9Px8OVgJFNKZ54aBHuKzDo6v/wRzjyYnn8U/zf5RaHjy17t0Kmb74kSuettdjoPe1xSpT9j+Su54clnTzjDu658/f5cSYJZSZkMN7qsW456t5oqtdNTMhTO3Qil/pyZf5RRlY/KKn3odH4/YlSZ4QdZxEe6W+rNO+scK5K796p4tLBAL8YSqS+H/d437qRLKL/dPihLwtkqG7G3l1F+Gw+/LL/NJdIv0iocLzQhViQIANDZ1yckQjVdJqP4LaV8e3OdnTe6bKbqdwoUMOcVmI2mYTIcT46FYxhjeJhUaGCfurff70es2D7Lfvdbe4P1mNJWsyQeYgh2aJRtWmCMAAAYMEpLgvCEc5hIZ7QB4GgwN329ZS35D8MD97keJAzvAAAAAElFTkSuQmCC">
+          </div>
+        </div>
+      </div>
+      <div class="text-center">
+        <button type="button"
+          [disabled]="selectedDatabaseRecord === 'select database' || selectedTableRecord === 'select table'"
+          class="col-sm-1 mt-2 btn btn-success table-create" (click)="createUpdateRecord()">
+          {{ showEditRecord ? 'Save' : 'Create'}}
+        </button>
+      </div>
+      <div *ngIf="!recordList.length" class="mb-3 mt-4 text-center">
+        No records available
+      </div>
+      <table *ngIf="recordList.length" class="table table-bordered">
+        <thead>
+          <tr>
+            <th class="text-center" scope="col">Sr. No.</th>
+            <th class="text-center" scope="col">Record</th>
+            <th class="text-center" scope="col">Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let record of recordList; let i = index">
+            <th class="text-center" scope="row">{{i+1}}</th>
+            <td class="text-center">{{record | json}}</td>
+            <td class="text-center">
+              <button type="button" class="btn btn-warning" (click)="editRecord(record)"><i
+                  class="bi bi-pencil"></i></button>
+              &nbsp; &nbsp;
+              <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#deleteModal"
+                (click)="deleteObj = 'record'; deleteRef = record.id;"><i class="bi bi-trash"></i></button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<router-outlet></router-outlet>
+
+<!-- Modal -->
+<div class="modal fade" id="deleteModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+  aria-labelledby="deleteModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-body text-center">
+        <img width="30" height="30"
+          src="data:image/png;base64,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">
+        Are you sure, you want to delete {{deleteObj}}?
+      </div>
+      <div class="modal-footer flex justify-content-center">
+        <button #closebutton type="button" class="btn btn-secondary" data-bs-dismiss="modal">No</button>
+        <button type="button" class="btn btn-primary" (click)="delete()">Yes</button>
+      </div>
+    </div>
+  </div>
+</div>
